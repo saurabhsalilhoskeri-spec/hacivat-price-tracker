@@ -1,0 +1,15 @@
+{
+  "name": "render-hacivat-price-tracker",
+  "version": "1.0.0",
+  "description": "Hourly Puppeteer-based price checker deployed on Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.8",
+    "puppeteer": "^21.3.8",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  }
+}
